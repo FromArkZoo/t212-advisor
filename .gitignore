@@ -1,0 +1,93 @@
+.env
+data/snapshots/
+__pycache__/
+*.pyc
+.DS_Store
+
+# ---- Universal safety patterns ----
+# Added by project-init batch
+
+# Dependencies
+node_modules/
+bower_components/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+Pods/
+
+# Build / output
+dist/
+build/
+out/
+.next/
+.nuxt/
+.parcel-cache/
+target/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Godot
+.godot/
+.import/
+export_presets.cfg
+
+# Environment / secrets (safety net — never commit these)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.p12
+*.mobileprovision
+credentials.json
+secrets.json
+secrets.yml
+config.local.*
+.netrc
+
+# IDE / editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Claude Code local state (plans, notes — private)
+.claude/
+
+# Logs
+*.log
+logs/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Misc
+.cache/
+coverage/
+
+# ---- Personal data (added post-init) ----
+# Real Trading 212 portfolio snapshots — runtime-generated, never commit
+data/orders_*.json
+data/transactions_*.json
+data/account_summary_*.json
+data/positions_*.json
+data/dividends_*.json
+
+# Claude Code local instructions contain personal portfolio context
+CLAUDE.md
+
+# ---- Tests coupled to real portfolio data — not suitable for public repo ----
+tests/test_portfolio.py
+tests/test_t212_client.py

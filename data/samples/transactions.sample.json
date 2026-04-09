@@ -1,0 +1,16 @@
+[
+  {
+    "type": "DEPOSIT",
+    "amount": 10000.00,
+    "currency": "GBP",
+    "reference": "sample-deposit-001",
+    "dateTime": "2025-03-14T12:00:00.000Z"
+  },
+  {
+    "type": "DEPOSIT",
+    "amount": 1000.00,
+    "currency": "GBP",
+    "reference": "sample-deposit-002",
+    "dateTime": "2025-05-01T12:00:00.000Z"
+  }
+]

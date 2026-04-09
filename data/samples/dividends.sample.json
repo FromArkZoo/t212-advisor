@@ -1,0 +1,19 @@
+[
+  {
+    "ticker": "VWRPl_EQ",
+    "instrument": {
+      "ticker": "VWRPl_EQ",
+      "name": "Vanguard FTSE All-World (Acc)",
+      "isin": "IE00BK5BQT80",
+      "currency": "GBP"
+    },
+    "reference": "sample-div-001",
+    "quantity": 50.0,
+    "amount": 12.50,
+    "currency": "GBP",
+    "grossAmountPerShare": 0.25,
+    "amountInEuro": 14.60,
+    "paidOn": "2025-09-15T12:00:00.000+00:00",
+    "type": "DIVIDEND"
+  }
+]
